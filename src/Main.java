@@ -5,8 +5,6 @@
  */
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.Vector;
 import java.util.*;
 
 public class Main {
@@ -14,7 +12,7 @@ public class Main {
 	private static File file = null;
 	private static BufferedReader reader = null;
 	private static String line;
-	private static final String fileName = "KB.txt";
+	private static final String fileName = "./../KB.txt";
 
 	public static Vector<String> splitKB = new Vector<String>();
 	public static int counter = 0;
